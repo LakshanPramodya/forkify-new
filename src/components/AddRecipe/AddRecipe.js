@@ -90,44 +90,29 @@ const AddRecipe = function (props) {
             <div className={AddRecipeCSS.upload__column}>
               <h3 className={AddRecipeCSS.upload__heading}>Recipe data</h3>
               <label>Title</label>
-              <input defaultValue="TEST123" required name="title" type="text" />
+              <input defaultValue="" required name="title" type="text" />
               <label>URL</label>
-              <input
-                defaultValue="TEST123"
-                required
-                name="source_url"
-                type="text"
-              />
+              <input defaultValue="" required name="source_url" type="text" />
               <label>Image URL</label>
-              <input
-                defaultValue="TEST123"
-                required
-                name="image_url"
-                type="text"
-              />
+              <input defaultValue="" required name="image_url" type="text" />
               <label>Publisher</label>
-              <input
-                defaultValue="TEST123"
-                required
-                name="publisher"
-                type="text"
-              />
+              <input defaultValue="" required name="publisher" type="text" />
               <label>Prep time</label>
               <input
-                defaultValue="45"
+                defaultValue=""
                 required
                 name="cooking_time"
                 type="number"
               />
               <label>Servings</label>
-              <input defaultValue="4" required name="servings" type="number" />
+              <input defaultValue="" required name="servings" type="number" />
             </div>
 
             <div className={AddRecipeCSS.upload__column}>
               <h3 className={AddRecipeCSS.upload__heading}>Ingredients</h3>
               <label>Ingredient 1</label>
               <input
-                defaultValue="0.5,kg,Rice"
+                defaultValue=""
                 type="text"
                 required
                 name="ingredient-1"
@@ -135,14 +120,14 @@ const AddRecipe = function (props) {
               />
               <label>Ingredient 2</label>
               <input
-                defaultValue="1,,Avocado"
+                defaultValue=""
                 type="text"
                 name="ingredient-2"
                 placeholder="Format: 'Quantity,Unit,Description'"
               />
               <label>Ingredient 3</label>
               <input
-                defaultValue=",,salt"
+                defaultValue=""
                 type="text"
                 name="ingredient-3"
                 placeholder="Format: 'Quantity,Unit,Description'"
