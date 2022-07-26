@@ -32,9 +32,9 @@ body {
     left top,
     right bottom,
     from(#fbdb89),
-    to(#f48982)
+    to(black)
   );
-  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  background-image: linear-gradient(to right bottom, #fbdb89, black);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw);
